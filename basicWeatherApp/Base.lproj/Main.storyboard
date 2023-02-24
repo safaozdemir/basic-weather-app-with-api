@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,7 +12,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="basicWeatherApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9q3-Wr-IYG">
@@ -81,11 +80,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="feelTxt" destination="xLp-0V-ydK" id="o6a-3s-QbX"/>
-                        <outlet property="mainTxt" destination="MGg-1b-bJh" id="ASE-XB-DQ0"/>
-                        <outlet property="sehirTxt" destination="1v6-Vw-asX" id="NK8-TI-7DF"/>
-                        <outlet property="tempTxt" destination="7c0-mt-Da3" id="G6P-nG-gU4"/>
-                        <outlet property="windTxt" destination="zcY-iK-7mZ" id="Oc1-oN-s0d"/>
+                        <outlet property="cityLabel" destination="1v6-Vw-asX" id="NK8-TI-7DF"/>
+                        <outlet property="feelLabel" destination="xLp-0V-ydK" id="o6a-3s-QbX"/>
+                        <outlet property="mainLabel" destination="MGg-1b-bJh" id="ASE-XB-DQ0"/>
+                        <outlet property="tempLabel" destination="7c0-mt-Da3" id="G6P-nG-gU4"/>
+                        <outlet property="windLabel" destination="zcY-iK-7mZ" id="Oc1-oN-s0d"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
